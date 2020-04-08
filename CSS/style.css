@@ -1,0 +1,116 @@
+* {box-sizing: border-box}
+
+body{
+	font-family: "Berlin Sans FB";
+	text-align: center;
+	color: #2b0366;
+}
+
+.content{
+	margin: 0 auto;
+	width: 100%;
+}
+
+.profilepic{
+	margin-top: -120px;
+}
+
+.ft{
+	margin-top: 50px;
+	width: 100%;
+	float: right;
+}
+
+
+.column1{
+	text-align: justify;
+	float: left;
+	width: 22%;
+	margin-left:300px;
+}
+
+.column2{
+	text-align: justify;
+	float: left;
+	width: 22%;
+	margin-left: 20px;
+}
+
+.column3{
+	text-align: justify;
+	float: left;
+	width: 22%;
+	margin-right: 300px;
+	margin-left: 20px;
+}
+
+#st{
+	font-size: 20px;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+
+.subtitle{
+	background-color: #042347;
+	color: white;
+	width: 300px;
+	margin-left: 300px;
+	margin-top: 50px;
+	font-size: 30px;
+}
+
+.words{
+	column-count: 3;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+#subtitle1{
+	background-color: #042347;
+	color: white;
+	text-align: justify;
+	float: left;
+	width: 22%;
+	margin-left:300px;
+}
+
+#subtitle2{
+	background-color: #042347;
+	color: white;
+	text-align: justify;
+	float: left;
+	width: 22%;
+	margin-left: 20px;
+}
+
+#subtitle3{
+	background-color: #042347;
+	color: white;
+	text-align: justify;
+	float: left;
+	width: 22%;
+	margin-right: 300px;
+	margin-left: 20px;
+}
+
+p,li{
+	font-size: 20px;
+	line-height: 1.6;
+}
+
+.ah{
+	clear: both;
+}
+
+.links{
+	margin-right: 10px;
+}
+
+.links:hover img{
+	  transform: scale(1.5);
+}
+
+ul{
+	list-style: url(../image/bullet.png);
+}
