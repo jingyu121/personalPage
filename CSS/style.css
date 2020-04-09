@@ -22,26 +22,17 @@ body{
 }
 
 
-.column1{
+.column{
 	text-align: justify;
 	float: left;
-	width: 22%;
-	margin-left:300px;
+	width: 33.333%;
+	padding: 20px;
 }
 
-.column2{
-	text-align: justify;
-	float: left;
-	width: 22%;
-	margin-left: 20px;
-}
 
-.column3{
-	text-align: justify;
-	float: left;
-	width: 22%;
-	margin-right: 300px;
-	margin-left: 20px;
+.box{
+	margin-left: 220px;
+	margin-right: 220px;
 }
 
 #st{
@@ -60,38 +51,12 @@ body{
 	font-size: 30px;
 }
 
-.words{
-	column-count: 3;
-	margin-left: 300px;
-	margin-right: 300px;
-}
-
-#subtitle1{
+.cont{
 	background-color: #042347;
 	color: white;
-	text-align: justify;
-	float: left;
-	width: 22%;
-	margin-left:300px;
-}
-
-#subtitle2{
-	background-color: #042347;
-	color: white;
-	text-align: justify;
-	float: left;
-	width: 22%;
-	margin-left: 20px;
-}
-
-#subtitle3{
-	background-color: #042347;
-	color: white;
-	text-align: justify;
-	float: left;
-	width: 22%;
-	margin-right: 300px;
-	margin-left: 20px;
+	width: 300px;
+	text-align: center;
+	font-size: 30px;
 }
 
 p,li{
